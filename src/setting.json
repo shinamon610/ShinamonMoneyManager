@@ -1,0 +1,31 @@
+{
+    "budgetsPath":
+    {
+        "csvPath":"/Users/shinamon/iCloudDrive/Documents/category.csv",
+        "jsonPath":"/Users/shinamon/Projects/Test/ShinamonMoneyManager/DbOperationTest/src/budgets.json"
+    },
+    "tableAndCsv":[
+        {
+            "account":"",
+            "category":"",
+            "characterCode":"shift_jis",
+            "date":"日付",
+            "income":"預かり金額",
+            "name":"shinamon_ufj",
+            "path":"/Users/shinamon/Downloads/shinamon_ufj.csv",
+            "shouldClear":false,
+            "spending":"支払い金額"
+        },
+        {
+            "account":"account",
+            "category":"category",
+            "characterCode":"utf-8",
+            "date":"date",
+            "income":"income",
+            "name":"otherAcconts",
+            "path":"/Users/shinamon/iCloudDrive/Documents/kakeibo.csv",
+            "shouldClear":true,
+            "spending":"spending"
+        }
+    ]
+}

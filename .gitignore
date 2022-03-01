@@ -1,5 +1,6 @@
 Cabal.project.local
 dist-newstyle
 run.ps1
+runWithArgs.ps1
 ..gitignore.un~
 .gitignore~

@@ -20,7 +20,10 @@ maintainer:         76248816+shinamon610@users.noreply.github.com
 extra-source-files: CHANGELOG.md
 
 library
-    exposed-modules:  MyLib
+    exposed-modules:  
+        MyLib
+        ,JsonControl
+        ,Sqlite3Control
 
     -- Modules included in this library but not exported.
     -- other-modules:

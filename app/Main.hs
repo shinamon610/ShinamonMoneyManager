@@ -1,8 +1,10 @@
 module Main where
-
-import qualified MyLib (someFunc)
+import System.Environment (getArgs)
+import  MyLib (setBudgets, importCsv)
+import Sqlite3Control (createMonthlyTableIfNotExists)
 
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell!"
-  MyLib.someFunc
+    createMonthlyTableIfNotExists
+    args <- getArgs
+    if null args then importCsv else setBudgets

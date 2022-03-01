@@ -48,12 +48,12 @@ executable ShinamonMoneyManager
     -- other-extensions:
     build-depends:
         base ^>=4.14.3.0,
-        ShinamonMoneyManager 
+        ShinamonMoneyManager,
         sqlite-simple,
         text,
         aeson,
         bytestring,
-        time,
+        time
 
     hs-source-dirs:   app
     default-language: Haskell2010

@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:ShinamonMoneyManager"
+
+    - path: "app/Main.hs"
+      component: "ShinamonMoneyManager:exe:ShinamonMoneyManager"
+
+    - path: "test"
+      component: "ShinamonMoneyManager:test:ShinamonMoneyManager-test"
